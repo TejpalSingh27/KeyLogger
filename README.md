@@ -1,14 +1,21 @@
-Keylogger using pynput (Python)
+# Keylogger using pynput (Python)
 
-This is a simple keylogger built using the pynput library in Python. It listens for key presses on the keyboard and logs the keys to a file (log.txt). The script is useful for educational purposes to demonstrate how to capture keyboard input using Python.
+This is a simple keylogger built using the `pynput` library in Python. It listens for key presses on the keyboard and logs the keys to a file (`log.txt`). The script is useful for educational purposes to demonstrate how to capture keyboard input using Python.
 
-Features
+## Features
 
-Captures each key press made on the keyboard.
-Replaces special keys (like space, enter, backspace, etc.) with more readable representations.
-Saves the captured keystrokes to a log file (log.txt).
+- Captures each key press made on the keyboard.
+- Replaces special keys (like space, enter, backspace, etc.) with more readable representations.
+- Saves the captured keystrokes to a log file (`log.txt`).
 
+## Requirements
 
-Requirements
-             Python 3.x
-             pynput library
+- Python 3.x
+- `pynput` library
+
+## Installation
+
+1. Clone this repository to your local machine:
+
+   ```bash
+   git clone https://github.com/yourusername/keylogger.git
